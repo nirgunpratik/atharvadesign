@@ -1,0 +1,33 @@
+.class-logo {
+    width: 80px;
+    height: 80px;
+}
+
+.fix-image {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.nav-width
+{
+    width: 50px;
+}
+
+.margin-top-10px{
+    
+    margin-top: 20px;
+}
+
+
+@media only screen and (max-width: 725px){
+    .row{
+        flex-direction: column;
+    }
+    .row .image{
+        order: -1;
+    }
+    .row .my-image{
+        width: 60vw;
+    }
+}
