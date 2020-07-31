@@ -8,6 +8,12 @@
     height: auto;
 }
 
+.card-new-image {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
 
 .nav-width
 {
@@ -20,7 +26,7 @@
 }
 
 
-@media only screen and (max-width: 725px){
+/*@media only screen and (max-width: 725px){
     .row{
         flex-direction: column;
     }
@@ -30,4 +36,4 @@
     .row .my-image{
         width: 60vw;
     }
-}
+}*/
